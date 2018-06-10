@@ -1,2 +1,2 @@
 # sticky
-An integratable chat client for organisations
+An integratable chat client.
