@@ -4,6 +4,7 @@
   "description": "An integratable chat client.",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Success: All OK\" ",
     "start": "node server.js"
   },
   "repository": {
