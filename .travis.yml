@@ -6,7 +6,7 @@ branches:
   - master
   - staging
   - dev
-  - jas-travis-ci
+  - jas_travis-ci
 deploy:
   provider: heroku
   api_key:
