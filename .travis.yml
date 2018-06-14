@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 10.4.1
+- 10.4.1
 branches:
   only:
   - master
@@ -10,8 +10,8 @@ branches:
 deploy:
   provider: heroku
   api_key:
-    secure: lcG94ElqBIqNu+tQaQq+O5cNQBYZD5POWtuJt8v76zlGiX+GOIin9oWctvIL8EVelppR6iUuuinDRQbc5JBbOW1o9zHcfGj4hPH89PQKJCzNu25TH/Mnwr164hGvVCBjlf153jsR4VzfnANc7N5Ev+hUACBwud9qOwlkjrl4xdmzIWSntpeBNbjpxu2Wh3SXNqsOR/uoQuI509IxAZfpPUFJE6y8kD/SPfAtS/jUROVFHl5Pkjpsdd6h1R/0O1RZP4H6w2qzHLASyx8boxdHTXoEvNMrwnRBtT38Pya95d0MorZReb9fAEAHRbusKL8tJVsYGvJOcHtRwaqCgGPwxqGkIW0I19trangLkiCDn2j2vqH49iSwFWVR3OmGM8TDHp/dfY00DzrS1phSR+b+4ougFpfCgvHFVBiRovJ9M+QvonOix2sHF/PLMKqGYyMDXm0D2pEqhbDf8DXpIToK24oWuue4EXCDOTJybggVp7BtaJ7DJvBph9NBCJmnNpTIaMKIuCoECgws2bCYjUsQiRFfcoXEiuEOUxVCgjCuGoEGVtF/4+iJQ0HuzWYIPY/pagKnR0Y6OZ+cBnY5wWDH4X59oYpHrkYs3Epc//O60s5R85fbdHFLOPx7ep/hkjFngmVNAcbWePCtAcZcqa60lTHZfSIjHOX5CI17yIscjCE=
-  app: 
+    secure: UvrfSV+QhmGOAPHr/MMbw4TkaTr4ql3Ch0/v7dw+2sKCIdOM1Yunpgt6XBGWmpiWkCRmzoIBuETp8DJbAOGQbztQnA3TySP/ijT3FaamEhXyXjR6iaGqJlwybxvTTWhptMFyKfqvT/Loa5C4SorWUEAz/gQuzKhJwPFaFZFmgF1C6Aw/VrxweUHj4GHXu1/zgsa5H087AcpYtwziI4nczjJ9+/S6SVe0eUsXa9B3dnWQuHRtlt1bRuNUI7hkDzEWbaaUPat/AodGdIhY9kSBWqKhIxtE+9n9BLilnY0V94GoJRP4NKcqhiaHr1WWsyAMB6kz+5TskGgVI3Iqx9mAMk0Ljw7oqm/HuWB4P3+QlEzJ6B+FAvBH5Gl3VohNoTSpQS+4SugAUKbOYcVlhPGwh4SgqU0PNYlDGe5XdVXkvdT1rwxNjAa8YZ6BIgMm7TSbjDg23iOD7qoEU3NNSzunkrpLbPdySAD1Xfg6Ms0wXtqNBuXlBfThuLYSvi6x4gL+lUIuxna+M9rLBbSR5z1LpyjXUQFrD7wsn58b4Y4chjGsYApE+QXEPW87ukQ5zYuQcLDhs0rl/ghzyfFevFnMquydGx5RpDA5WJxfX6wtAugwAGccBSCfRHmp+82tR+WQ/CGPnv5SU7FT1QocnRKxw0NRKuNCoTaC+fktkQxYNgE=
+  app:
     dev: sticky-dev-env
     staging: sticky-staging-env
   on:
