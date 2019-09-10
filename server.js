@@ -4,13 +4,15 @@ var app = express();
 var http = require('http');
 
 app.post('/login', function (req, res) {
-	res.status(200)
-	res.send(JSON.stringify({token: '321dqfadsf23dd'}))
+	res.status(200).json({token: '321dqfadsf23dd'});
+})
+
+app.get('/', function (req, res) {
+	res.status(200).json({ statusMsg: 'Welcome' });
 })
 
 app.get('/logout', function (req,res) {
-	res.status(401);
-	res.send(JSON.stringify({statusMsg: 'Token Expired'}));
+	res.status(401).json({ statusMsg: 'Token Expired' });
 })
 
 app.get('/getSomeData', function (req,res) {
@@ -22,13 +24,11 @@ app.get('/getSomeData', function (req,res) {
 			id: i
 		}]
 	}
-	res.status(200);
-	res.send(JSON.stringify({data}));
+	res.status(200).json({data});
 })
 
 app.get('/get500', function (req,res) {
-	res.status(500);
-	res.send(JSON.stringify({statusMsg: 'Something went wrong!'}));
+	res.status(500).json({statusMsg: 'Something went wrong!'});
 })
 
 var port = process.env.PORT || 3000;
