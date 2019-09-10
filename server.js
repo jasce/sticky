@@ -2,6 +2,9 @@ var express = require('express');
 var fs = require('fs');
 var app = express();
 var http = require('http');
+const cors = require('cors');
+
+app.use(cors())
 
 app.post('/login', function (req, res) {
 	res.status(200).json({token: '321dqfadsf23dd'});
